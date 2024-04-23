@@ -3,8 +3,7 @@
  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 ## Table of Contents
-  * [Description](#description)
-  * [Examples](#examples)
+  * [Description](#description) - [Examples](#examples)
   * [File-Structure](#file-structure)
   * [Acceptance-Criteria](#acceptance-criteria)
   * [Installation](#installation)

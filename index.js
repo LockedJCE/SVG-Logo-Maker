@@ -2,7 +2,6 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 // const jest = require('jest');
 const questions = require('./lib/questions.js');
-const shapes = require('./lib/shapes.js');
 const setShape = require('./lib/setShape.js');
 const fileName = "./examples/logo.svg";
 
