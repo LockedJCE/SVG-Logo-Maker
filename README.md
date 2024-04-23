@@ -6,7 +6,8 @@ Ever wanted a logo thats able to scale to any size big or small?
 Takes too long to manually make the SVG? Well now you got the solution to both those problems! 
 With this SVG Logo Maker you can generate an SVG logo with your choice of shape (circle, square, or triangle), shape color, text (limit of 3 characters), and text color. 
 Shape and text colors can be chosen using color keywords or hexadecimal numbers.
-[Demo](https://github.com/LockedJCE/SVG-Logo-Maker/assets/163614828/760ce496-2b39-40ee-9f9f-7996bd2417e6)
+
+[SVG-Logo-Maker.webm](https://github.com/LockedJCE/SVG-Logo-Maker/assets/163614828/9d81e3af-4347-4f44-a9db-2988dfb81af8)
 
 ## Table of Contents
   * [Acceptance-Criteria](#acceptance-criteria)
@@ -16,7 +17,6 @@ Shape and text colors can be chosen using color keywords or hexadecimal numbers.
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
-  * [Credits](#credits)
 ## Acceptance-Criteria
     GIVEN a command-line application that accepts user input
     WHEN I am prompted for text
@@ -33,11 +33,13 @@ Shape and text colors can be chosen using color keywords or hexadecimal numbers.
     WHEN I open the `logo.svg` file in a browser
     THEN I am shown a 300x200 pixel image that matches the criteria I entered
   ## Installation
-    Download Node.js and install jest
+  Download Node.js and install Jest
   ## Usage
-    Invoke the application by typing "node index.js" in the terminal's command line. You will be asked a series of questions before your logo is generated. 
-    If you do not enter a valid color keyword or hexadecimal number, you will be asked to try again. If your text contains more than 3 characters, you will be asked to try again. 
-    Once all questions have been  answered with accepted values, your new logo will be generated with the file name 'logo.svg' in the 'examples' folder. Refer back to the video posted in the description as needed.
+  Invoke the application by typing "node index.js" in the terminal's command line. You will be asked a series of questions before your logo is generated. 
+  
+  If you do not enter a valid color keyword or hexadecimal number, you will be asked to try again. If your text contains more than 3 characters, you will be asked to try again. 
+  
+  Once all questions have been  answered with accepted values, your new logo will be generated with the file name 'logo.svg' in the 'examples' folder. Refer back to the video posted in the description as needed.
   ## Licenses
   This project is covered under the MIT license. To learn more about what this means, click the license button at the top.
   MIT License
@@ -66,5 +68,5 @@ Shape and text colors can be chosen using color keywords or hexadecimal numbers.
   ## Tests
   Each shape class (Circle, Square, and Triangle) is tested for a render() method that returns a string for the corresponfing SVG file matching color and text requests. Type "npm test" in the command line and Jest will run all three tests.
   ## Questions
-  Have questions about this project?  
-  GitHub: https://github.com/LockedJCE  
+    Have questions about this project?  
+    GitHub: https://github.com/LockedJCE  
