@@ -1,10 +1,9 @@
 # SVG-Logo-Maker
  
  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-
+## Description
+    Ever wanted a logo thats able to scale to any size big or small? Takes too long to manually make the SVG? Well now you got the solution to both those problems! With this SVG Logo Maker you can generate an SVG logo with your choice of shape (circle, square, or triangle), shape color, text (limit of 3 characters), and text color. Shape and text colors can be chosen using color keywords or hexadecimal numbers.
 ## Table of Contents
-  * [Description](#description) - [Examples](#examples)
-  * [File-Structure](#file-structure)
   * [Acceptance-Criteria](#acceptance-criteria)
   * [Installation](#installation)
   * [Usage](#usage)
@@ -13,66 +12,26 @@
   * [Tests](#tests)
   * [Questions](#questions)
   * [Credits](#credits)
-## Description
-### Examples
-
-
-
-## File-Structure
-
-    .  
-    ├── examples/           // Example svg file(s) created with the app
-    ├── lib/                // Folder for classes or functions
-        ├── shapes.js       // Exports `Triangle`, `Circle`, and `Square` classes
-        ├── shapes.test.js  // Jest tests for shapes
-        ├── setShape.js     //
-        ├── square.js       //
-        ├── circle.js       //
-        ├── triangle.js     //
-        └── questions.js    //
-    ├── .gitignore          // Indicates which folders and files Git should ignore
-    ├── index.js            // Runs the application using imports from lib/
-    ├── package.json
-    └── README.md           // App description, link to video, setup and usage instructions 
 ## Acceptance-Criteria
-
     GIVEN a command-line application that accepts user input
-
     WHEN I am prompted for text
-
     THEN I can enter up to three characters
-
     WHEN I am prompted for the text color
-
     THEN I can enter a color keyword (OR a hexadecimal number)
-
     WHEN I am prompted for a shape
-
     THEN I am presented with a list of shapes to choose from: circle, triangle, and square
-
     WHEN I am prompted for the shape's color
-
     THEN I can enter a color keyword (OR a hexadecimal number)
-
     WHEN I have entered input for all the prompts
-
     THEN an SVG file is created named `logo.svg`
-
     AND the output text "Generated logo.svg" is printed in the command line
-
     WHEN I open the `logo.svg` file in a browser
-
     THEN I am shown a 300x200 pixel image that matches the criteria I entered
   ## Installation
-
-
-
+    Download Node.js and install jest
   ## Usage
-
-
-
+    Invoke the application by typing "node index.js" in the terminal's command line. You will be asked a series of questions before your logo is generated. If you do not enter a valid color keyword or hexadecimal number, you will be asked to try again. If your text contains more than 3 characters, you will be asked to try again. Once all questions have been answered with accepted values, your new logo will be generated with the file name 'logo.svg' in the 'examples' folder. Refer back to the video posted in the description as needed.
   ## Licenses
-
   This project is covered under the MIT license. To learn more about what this means, click the license button at the top.
   MIT License
 
@@ -95,15 +54,10 @@
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-
   ## Contributing
-
-  Finished project so no contributions needed but thank you
-
+  Finished project so no contributions needed but thank you.
   ## Tests
-
-  Still being added
-
+  Each shape class (Circle, Square, and Triangle) is tested for a render() method that returns a string for the corresponfing SVG file matching color and text requests. Type "npm test" in the command line and Jest will run all three tests.
   ## Questions
   Have questions about this project?  
   GitHub: https://github.com/LockedJCE  

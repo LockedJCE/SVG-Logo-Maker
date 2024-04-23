@@ -1,9 +1,8 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-// const jest = require('jest');
 const questions = require('./lib/questions.js');
-const setShape = require('./lib/setShape.js');
 const fileName = "./examples/logo.svg";
+const setShape = require('./lib/setShape.js')
 
 // function to create new svg file using inquirer response and file system
 function createLogo(response) {
