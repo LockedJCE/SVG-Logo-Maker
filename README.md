@@ -2,7 +2,12 @@
  
  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 ## Description
-    Ever wanted a logo thats able to scale to any size big or small? Takes too long to manually make the SVG? Well now you got the solution to both those problems! With this SVG Logo Maker you can generate an SVG logo with your choice of shape (circle, square, or triangle), shape color, text (limit of 3 characters), and text color. Shape and text colors can be chosen using color keywords or hexadecimal numbers.
+Ever wanted a logo thats able to scale to any size big or small? 
+Takes too long to manually make the SVG? Well now you got the solution to both those problems! 
+With this SVG Logo Maker you can generate an SVG logo with your choice of shape (circle, square, or triangle), shape color, text (limit of 3 characters), and text color. 
+Shape and text colors can be chosen using color keywords or hexadecimal numbers.
+[Demo](https://github.com/LockedJCE/SVG-Logo-Maker/assets/163614828/760ce496-2b39-40ee-9f9f-7996bd2417e6)
+
 ## Table of Contents
   * [Acceptance-Criteria](#acceptance-criteria)
   * [Installation](#installation)
@@ -30,7 +35,9 @@
   ## Installation
     Download Node.js and install jest
   ## Usage
-    Invoke the application by typing "node index.js" in the terminal's command line. You will be asked a series of questions before your logo is generated. If you do not enter a valid color keyword or hexadecimal number, you will be asked to try again. If your text contains more than 3 characters, you will be asked to try again. Once all questions have been answered with accepted values, your new logo will be generated with the file name 'logo.svg' in the 'examples' folder. Refer back to the video posted in the description as needed.
+    Invoke the application by typing "node index.js" in the terminal's command line. You will be asked a series of questions before your logo is generated. 
+    If you do not enter a valid color keyword or hexadecimal number, you will be asked to try again. If your text contains more than 3 characters, you will be asked to try again. 
+    Once all questions have been  answered with accepted values, your new logo will be generated with the file name 'logo.svg' in the 'examples' folder. Refer back to the video posted in the description as needed.
   ## Licenses
   This project is covered under the MIT license. To learn more about what this means, click the license button at the top.
   MIT License
